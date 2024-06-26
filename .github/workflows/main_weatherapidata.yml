@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'weatherApidata'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D3BAE172067E4DF9908C54F067116A07 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D93CD264E85A4661BF1D1BC1EA8BB6A4 }}
