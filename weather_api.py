@@ -48,7 +48,7 @@ def getData(latitude, longitude):
     return daily_dataframe
 
 
-@app.get("/")
+@app.get("/weather")
 def requestData(latitude, longitude):
     response = getData(latitude, longitude) 
 
