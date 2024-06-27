@@ -53,3 +53,7 @@ def requestData(latitude, longitude):
     response = getData(latitude, longitude) 
 
     return response.to_json(orient="records")
+
+@app.get("/hello")
+def requestData():
+    return "Hello from Weather Api"
